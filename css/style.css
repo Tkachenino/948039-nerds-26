@@ -1,0 +1,262 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+
+
+  color: #283136;
+  background-color: #ffffff;
+}
+.container {
+  width: 1440px;
+  padding: 0;
+  margin: 0 auto;
+}
+.header {
+  min-width: 1440px;
+  min-height: 545px;
+  background-color: #eeeeee;
+}
+.nav {
+  padding: 49px 140px;
+  display: flex;
+}
+.nav ul {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 26px;
+  margin-left: 202px;
+}
+.nav li {
+  padding-right: 46px;
+}
+.nav-link {
+  line-height: 30px;
+  text-decoration: none;
+  color: #000000;
+  text-transform: uppercase;
+}
+.shop {
+  padding-left: 38px;
+}
+.products {
+  padding: 0 75px 80px;
+  box-sizing: border-box;
+}
+.products ul {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+.products li {
+  padding-top: 64px;
+  margin-right: 35px;
+  margin-left: 65px;
+}
+.picture {
+  margin-bottom: -6px;
+}
+.products h3 {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  color: #000000;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+.products button {
+  font-size: 16px;
+  display: block;
+  width: 160px;
+  height: 50px;
+  border: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  border-radius: 5px;
+  margin-top: 32px;
+}
+.web-btn {
+  background-color: #fb565a;
+}
+.app-btn {
+  background-color: #00ca74;
+}
+.present-btn {
+  background-color: #efc84a;
+}
+.about-nerds {
+  display: flex;
+}
+.info-nerds {
+  width: 668px;
+  padding-top: 33px;
+  padding-left: 140px;
+}
+.info-nerds p:nth-of-type(1) {
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: bold;
+  margin-bottom: 31px;
+}
+.info-nerds p:nth-of-type(3) {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 39px;
+  margin-bottom: 23px;
+}
+.info-nerds ul {
+  list-style-type: none;
+  padding-left: 0;
+  }
+.info-nerds li {
+  padding-left: 36px;
+  padding-bottom: 25px;
+  position: relative;
+}
+.info-nerds li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 25%;
+  width: 27px;
+  height: 2px;
+  box-sizing: border-box;
+  background-color: red;
+}
+.statistic-nerds .first-text {
+  padding-top: 19px;
+  padding-left: 15px;
+  margin-bottom: -10px;
+}
+.lit {
+  font-size: 27px;
+  vertical-align: super;
+}
+.statistic-nerds p:first-of-type {
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+}
+.statistic-nerds ul {
+  padding-left: 0;
+  display: flex;
+  list-style-type: none;
+}
+.statistic-nerds {
+  margin-top: 42px;
+  margin-left: 133px;
+  line-height: 18px;
+}
+.statistic-nerds li {
+  width: 100px;
+  margin-right: 19px;
+}
+.percent {
+  font-size: 45px;
+  line-height: 10px;
+  margin-bottom: 38px;
+}
+.partners {
+  margin-top: 34px;
+}
+.partners ul {
+  list-style-type: none;
+  display: flex;
+  padding: 0 50px;
+}
+.partners li {
+  padding: 20px;
+  position: relative;
+}
+.partners li:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 2px;
+  height: 30px;
+  background-color: red;
+}
+.location {
+  background: #cacaca url("../img/map.png") 0px 0px no-repeat;
+  min-height: 416px;
+}
+.location-info {
+  display: block;
+  width: 319px;
+  height: 308px;
+  background-color: #ffffff;
+  }
+.location-info p:first-child{
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: bold;
+  color: #000000;
+}
+.location-info p {
+  font-size: 16px;
+  line-height: 18px;
+  color: #666666;
+}
+.location button {
+  width: 219px;
+  height: 50px;
+  background-color: #fb565a;
+  color: #ffffff;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+}
+.footer {
+  display: flex;
+  justify-content: space-around;
+}
+.footer ul {
+  width: 260px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0;
+}
+.footer li {
+  display: block;
+  background-color: #e1e1e1;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  position: relative;
+}
+.footer img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.sell p:first-child {
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: bold;
+}
+.sell p:last-child {
+  color: #444444;
+  line-height: 22px;
+}
+.visually-hidden {
+  position: absolute;
+
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+
+  border: 0;
+}
